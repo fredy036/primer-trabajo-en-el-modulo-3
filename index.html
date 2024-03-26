@@ -3,27 +3,50 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="styles.css" />
+      <link rel="stylesheet" href="reset.css" />
       <title>Mi Primer Sitio Web</title>
    </head>
    <body>
 
       <header>
-          <h1> La Biblia Gran Conocimiento </h1>
+         <div id="titulos">
+          <h1 class="titulo" id="principal"> La Biblia Gran Conocimiento </h1>
 
       <span> Noticia</span>
       <span> Home</span>
       <span> Link</span>
-
+         </div>
       </header>
       
       <main>
+         <div class="imgbiblia">
          
          <img src="./biblia.jpg"alt=""width="350px"/>
+      </div>
          <section>
             <article>
 
-         <h2> este es el titulo de una seccion</h2>
-         <h3> esta es la noticia #1</h3>
+         <h2 class="titulo"> este es el titulo de una seccion</h2>
+         <h3 class="titulo"> esta es la noticia #1</h3>
+         <article>
+            <div id="cards-container">
+
+             <div class="cards">
+                <h3 class="tituloo"> Generacion</h3>
+               <img src="./Generacion.jpg" class="logo"width="300px"height="300px"/>
+             </div>
+             <div class="cards">
+                <h3 class="tituloo"> Amor</h3>
+                <img src="./Amor.jpg" class="logo alt=" width="300px"/>
+             </div>
+             <div class="cards">
+                <h3 class="tituloo"> Jesus</h3>
+                <img src="./Jesus.jpg" class="logo alt=" width="300px"/>
+             </div>
+
+            </div>
+         </article>
       <div>
    
          <P> este sera el primer parrafo de mi noticia escribir lo que queremos dar a conocer en esta seccion</P>
@@ -33,7 +56,7 @@
       
       <article>
    
-          <h3> esta es la noticia #2</h3>
+          <h3 class="titulo"> esta es la noticia #2</h3>
    
           <p>este es un listado de esta noticia</p>
           <ol>
@@ -46,7 +69,7 @@
          
          <article>
           
-          <h3> esta es la noticia #3</h3>
+          <h3 class="titulo"> esta es la noticia #3</h3>
           <p> este listado de cosas importantes no estara ordenado</p>
    
           <ul>
